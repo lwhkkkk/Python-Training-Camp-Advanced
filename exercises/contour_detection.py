@@ -43,6 +43,6 @@ def contour_detection(image_path):
         return img_contour, countours_list
     # 9. 使用 try...except 处理异常。
     except Exception as e:
-        print(f"error:{e}")
+        print(f"errors:{e}")
         return None, None
     pass 
